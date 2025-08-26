@@ -96,27 +96,6 @@ https://raw.githubusercontent.com/Putarku/MoviePilot-Help/main/Words/2025.split.
 https://raw.githubusercontent.com/Putarku/MoviePilot-Help/main/Words/anime.txt
 ```
 
-## 自定义占用符
-
-```text
-\b(简繁内封|简繁日内封|简繁日英内封|简繁官字内封|官简内封|简日双语|简体内封|简体内嵌|繁体内嵌|简英双语|简繁外挂|简体|DoVi|HQ|HDR10|hq|60FPS|d\+fps|d\+FPS)\b
-```
-
-## 文件整理屏蔽词
-
-```text
-__\w{6}/
-\[((TV|BD|\bBlu-ray\b)?\s*CM\s*\d{2,3})\]
-\[Teaser.*?\]
-\[PV.*?\]
-#\[\d{2}.\d\]
-\[NC[OPED]+.*?\]
-\[S\d+\s+Recap(\s+\d+)?\]
-\b(CDs|SPs|Scans|Preview|EXTRA|ScreenShot|Menu|Bonus|映像特典|映像|Special Ending Movie|specials|特典CD|Menu|Logo|Preview|WiKi.sample|UHD.SAMPLE|/mv)\b
-\b(NC)?(Disc|片头|OP|OVA|OAD|ED|Advice|Trailer|BDMenu|片尾|PV|CM|Preview|MENU|Info|EDPV|SongSpot|BDSpot)(\d{0,2}|_ALL)\b
-名侦探柯南特典合集|名侦探柯南剧场版22周年合集|名侦探柯南真人版|系列合集|特别篇合集|加更
-```
-
 ## 自定义制作组/字幕组
 
 ```text
@@ -138,4 +117,25 @@ Nest
 MWeb
 UBWEB
 FROG
+```
+
+## 自定义占用符
+
+```text
+\b(简繁内封|简繁日内封|简繁日英内封|简繁官字内封|官简内封|简日双语|简体内封|简体内嵌|繁体内嵌|简英双语|简繁外挂|简体|DoVi|HQ|HDR10|hq|60FPS|d\+fps|d\+FPS)\b
+```
+
+## 文件整理屏蔽词
+
+```text
+__\w{6}/
+\[((TV|BD|\bBlu-ray\b)?\s*CM\s*\d{2,3})\]
+\[Teaser.*?\]
+\[PV.*?\]
+#\[\d{2}.\d\]
+\[NC[OPED]+.*?\]
+\[S\d+\s+Recap(\s+\d+)?\]
+\b(CDs|SPs|Scans|Preview|EXTRA|ScreenShot|Menu|Bonus|映像特典|映像|Special Ending Movie|specials|特典CD|Menu|Logo|Preview|WiKi.sample|UHD.SAMPLE|/mv)\b
+\b(NC)?(Disc|片头|OP|OVA|OAD|ED|Advice|Trailer|BDMenu|片尾|PV|CM|Preview|MENU|Info|EDPV|SongSpot|BDSpot)(\d{0,2}|_ALL)\b
+名侦探柯南特典合集|名侦探柯南剧场版22周年合集|名侦探柯南真人版|系列合集|特别篇合集|加更
 ```
